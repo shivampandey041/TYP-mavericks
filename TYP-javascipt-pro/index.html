@@ -1,0 +1,336 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>TYP-The Youth Project</title>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="css/style.css">
+</head>
+
+<body>
+    <nav id="navbar">
+        <div id="logo">
+            <img src="img/logo.jpg" alt="MyOnlineMeal.com">
+        </div>
+        <ul>
+            <li class="item"><a href="#home">Home</a></li>
+            <li class="item"><a href="#services-container">Courses</a></li>
+            <li class="item"><a href="#mentors">Our Mentors</a></li>
+            <li class="item"><a href="contact.html">Contact Us</a></li>
+        </ul>
+    </nav>
+
+    <section id="home">
+        <h1 class="h-primary">Welcome to The Youth Project</h1>
+        <p>"The Youth Project is an initiative to fill-in the gap between the current university education and market
+            requirement."</p>
+        <button class="btn">Know More</button>
+    </section>
+
+    <!----------------------Mantors cards--------------------------------------------->
+    <div class="container" id="mentors">
+        <div class="heading">
+            <h1> TYP -The Youth Project Family </h1>
+            <h3> Great Mentors </h3>
+        </div>
+        <div class="row">
+            <div class="card">
+                <div class="card-header">
+                    <img src="img/gourav sir.jpg">
+                </div>
+                <div class="card-body">
+                    <h4>
+                        Gourav Chouhan
+                    </h4>
+                    <small>Co-Founder The Youth Project</small>
+                    <a href="#" class="btn2">Read More</a>
+                </div>
+            </div>
+
+            <div class="card">
+                <div class="card-header">
+                    <img src="img/devansh sir.jpg">
+                </div>
+                <div class="card-body">
+                    <h4>
+                        Devansh Shrivastava
+                    </h4>
+                    <small>Co-Founder The Youth Project</small>
+                    <a href="#" class="btn2">Read More</a>
+                </div>
+            </div>
+            <div class="card">
+                <div class="card-header">
+                    <img src="img/Anuj sir.jpg">
+                </div>
+                <div class="card-body">
+                    <h4>
+                        Anuj Gangwal
+                    </h4>
+                    <small>Mentor at The Youth Project</small>
+                    <a href="#" class="btn2">Read More</a>
+                </div>
+            </div>
+
+        </div>
+
+    </div>
+    <!--------------------End Mantors cards--------------------------------------------->
+    <!-------------------------------------About section---------------------------------------------->
+
+    <div class="about-head">
+        <h1>About Us</h1>
+    </div>
+    <div class="about-container">
+        <div class="about-typ">
+            <p>The Youth Project initiative brings you the amazing opportunity to utilize this time and enroll into
+                <span class="typ-text">TYP.</span>.
+                remote track.</p>
+
+            <p>As part of the <span class="typ-text">TYP.</span>. live course, you will:</p>
+            <ul>
+                <li><b class="typgreen">instructor</b> led interactive live training classes</li>
+                <li><b class="typgreen">learn</b> from industry experts</li>
+                <li>do assignments and practicals to <b class="typgreen">test</b> your learning</li>
+                <li>get <b class="typgreen">one to one sessions</b> with mentors to clear doubts</li>
+                <li>make <b class="typgreen">new friends</b> from across globe</li>
+                <li>become <b class="typgreen">market-ready</b> with better employment opportunities</li>
+                <li>earn a <span class="typ-text">TYP.</span>. <b class="typgreen">certificate</b> after project
+                    completion</li>
+            </ul>
+
+        </div>
+        <div class="news-letter">
+            <div class="updates">
+                <div class="latest-update">
+                    Mavericks Projects
+                </div>
+                <marquee id="marquee" behavior="scroll" direction="left" id="scrollableNews" style="margin:8px 4px"
+                    onmouseover="stop()" onmouseout="start()">Prasheet Pathak posted on LinkedIn | Shivam Pandey Maverick of the week | Shailly Make a ToDo list Web App", "Shivam Pandey Maverick of the
+                    week |
+                </marquee>
+
+            </div>
+            <hr>
+            <div id="update-list">
+                <ul id="newNewsList">
+                </ul>
+            </div>
+        </div>
+    </div>
+    <div class="update-btn">
+        <div class="upbtn">
+            <button onclick="newsAdd()" id="newNewBtn" style="background-color: cyan;">Update News</button>
+            <button onclick="newsRemove()" id="newNewRemoveBtn" style="background-color: cyan;">Remove Update</button>
+        </div>
+    </div>
+
+
+
+    <!------------------------------------- End About section---------------------------------------------->
+
+    <!--------------------Maverics cards--------------------------------------------->
+
+    <div class="container">
+        <div class="heading">
+            <h2> Mavericks </h2>
+        </div>
+
+        <div class="row">
+            <div class="card">
+                <div class="card-header">
+                    <img src="img/1.jpg">
+                </div>
+                <div class="card-body">
+                    <h4>
+                        Shivam Pandey
+                    </h4>
+                    <small>Tranee at The Youth Project</small>
+                    <a href="#" class="btn2">Read More</a>
+                </div>
+            </div>
+
+            <div class="card">
+                <div class="card-header">
+                    <img src="img/rohit.jpg">
+                </div>
+                <div class="card-body">
+                    <h4>
+                        Rohit Shaw
+                    </h4>
+                    <small>Tranee at The Youth Project</small>
+                    <a href="#" class="btn2">Read More</a>
+                </div>
+            </div>
+
+            <div class="card">
+                <div class="card-header">
+                    <img src="img/sakshi.jpg">
+                </div>
+                <div class="card-body">
+                    <h4>
+                        Sakshi Mishra
+                    </h4>
+                    <small>Tranee at The Youth Project</small>
+                    <a href="#" class="btn2">Read More</a>
+                </div>
+            </div>
+
+            <div class="card">
+                <div class="card-header">
+                    <img src="img/aradhna.jpg">
+                </div>
+                <div class="card-body">
+                    <h4>
+                        Aradhna Das
+                    </h4>
+                    <small>Tranee at The Youth Project</small>
+                    <a href="#" class="btn2">Read More</a>
+                </div>
+            </div>
+
+
+        </div>
+
+        <div class="row">
+            <div class="card">
+                <div class="card-header">
+                    <img src="img/ayush.jpg">
+                </div>
+                <div class="card-body">
+                    <h4>
+                        Ayush Abhishak
+                    </h4>
+                    <small>Tranee at The Youth Project</small>
+                    <a href="#" class="btn2">Read More</a>
+                </div>
+            </div>
+
+            <div class="card">
+                <div class="card-header">
+                    <img src="img/prasteep.jpg">
+                </div>
+                <div class="card-body">
+                    <h4>
+                        Prashteep Pathak
+                    </h4>
+                    <small>Tranee at The Youth Project</small>
+                    <a href="#" class="btn2">Read More</a>
+                </div>
+            </div>
+
+            <div class="card">
+                <div class="card-header">
+                    <img src="img/shailly.jpg">
+                </div>
+                <div class="card-body">
+                    <h4>
+                        Shailly Shah
+                    </h4>
+                    <small>Tranee at The Youth Project</small>
+                    <a href="#" class="btn2">Read More</a>
+                </div>
+            </div>
+
+            <div class="card">
+                <div class="card-header">
+                    <img src="img/baraik.jpg">
+                </div>
+                <div class="card-body">
+                    <h4>
+                        Veena Baraik
+                    </h4>
+                    <small>Tranee at The Youth Project</small>
+                    <a href="#" class="btn2">Read More</a>
+                </div>
+            </div>
+           
+
+        </div>
+
+        
+    </div>
+
+
+    <!---------------------------Add new Student------------------------------------------->
+
+<div class="addmaver">
+    <div class="addcard">
+        <button onclick="addcard()" id="addbtnn">Info Student</button>
+    </div>
+</div>
+
+<!---------------------------End Add new Student------------------------------------------->
+    <div class="third" id="hel">
+        <div id="project" style="background-color: lightcyan;">
+
+        </div>
+        <form id="ff">
+            <label class="lab">First Name</label>
+            <input type="text" id="fn"><br>
+            <label class="lab">Last Name</label>
+            <input type="text" id="ln"><br>
+            <label class="lab">Project Name</label>
+            <input type="text" id="pn"><br>
+            <button  onclick="profile(fn.value,ln.value)" style="padding: 5px 5px; margin-top: 23px;" id="addbtnn">Info Student</button>
+            <!-- <button id="addbtnn" type="button" onclick="profile(fn.value,ln.value)">Show Info</button> -->
+        </form>
+    </div>
+  
+
+    
+
+
+
+<!----------------------------------footer--------------------------------------------------->
+
+<div class="main-footer">
+    <div>
+    <div class="webimg">
+        <img src="img/logo.jpg">
+    </div>
+    <div class="webinfo">
+    <p>"The Youth Project is an initiative to fill-in <br>the gap between the current university<br> education and market
+        requirement."</p>
+    </div>    
+    <ul>
+        <li>
+            <a href="#"><i class="fa fa-facebook-f icon"></i></a>
+        </li>
+        <li>
+            <a href="#"><i class="fa fa-twitter icon"></i></a>
+        </li>
+        <li>
+            <a href="#"><i class="fa fa-instagram icon"></i></a>
+        </li>
+        <li>
+            <a href="https://www.linkedin.com/company/theyouthproject/"><i class="fa fa-linkedin icon"></i></a>
+        </li>
+    </ul>
+</div>
+    <div class="footer-menu">
+        <div>
+            <h3>Quick Link</h3>
+        </div>
+        <div style="margin-left: 9px; margin-bottom: 10px; font-size: 18px;"><a
+                style="text-decoration: none; color: rgb(49, 49, 49);" href="index.html">Home</a></div>
+        <div style="margin-left: 9px; margin-bottom: 10px; font-size: 18px;"><a
+                style="text-decoration: none; color: rgb(49, 49, 49);;" href="about.html">About</a></div>
+        <div style="margin-left: 9px; margin-bottom: 10px; font-size: 18px;"><a
+                style="text-decoration: none; color: rgb(49, 49, 49);;" href="contact.html">Contact</a></div>
+    </div>
+    <div class="newlatter">
+        <input type="email" name="submit" placeholder="Enter Mail">
+        <input class="subbtn" type="submit" name="submit" value="Subscribe">
+    </div>
+</div>
+
+<!-----------------------------------end footer----------------------------------------------->
+    <!-- JS Linking -->
+    <script src="js/main.js"></script>
+
+</body>
+
+</html>
